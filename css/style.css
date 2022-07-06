@@ -1,0 +1,109 @@
+body{
+  background-color: #fff; 
+background-image: 
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
+}
+h5{
+  margin-top:10px;
+    color:black;
+}
+.box{
+  height:600px;
+  width:400px;
+  background: linear-gradient(white, #f0e0bd);
+  background-color:#f0e0bd;
+  position:absolute;
+  left:40%;
+  top:10%;
+  border-radius:8%;
+  border:solid;
+box-shadow: 10px 10px 10px black;
+}
+#display{
+  background: linear-gradient(brown, grey);
+  border:solid;
+height:100px;
+  width:350px;  
+  margin:20px;
+  border-radius:5%;
+  border-width:1px;
+  border-color:black;
+}
+#cur{
+  width:350px;
+  height:40px;
+  text-align:right;
+  font-size:30px;
+  font-family:Monospace;
+  color:white;
+  padding:10px;
+}
+.tot{
+   width:350px;
+  height:15px;
+  font-size:15px;
+  text-align:right;
+  color:yellow;
+  padding-right:20px;
+}
+.but{
+  margin:20px;
+}
+#AC{
+  background-color:black;
+  color:white;
+  width:60px;
+  height:60px;
+  margin-left:20px;
+    box-shadow: 10px 10px 10px 5px grey;
+
+}
+#doub{
+  background-color:black;
+  color:white;
+  width:140px;
+  height:60px;
+  margin-left:20px;
+   box-shadow: 10px 10px 10px 5px grey;
+
+}
+#AC {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+
+#AC:hover {
+  background-color: brown;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#doub {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+
+#doub:hover {
+  background-color: brown;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
